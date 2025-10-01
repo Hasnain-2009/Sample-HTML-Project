@@ -15,7 +15,7 @@ h1:hover {
     background-color: rgb(231, 17, 17);
     cursor: pointer;
     color: rgb(228, 221, 221);
-    transform: scale(0.9);
+    transform: scale(1);
 }
 
 .container {
