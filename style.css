@@ -1,0 +1,52 @@
+h1 {
+    margin: 20px;
+    padding: 20px;
+    background-color: bisque;
+    border: 2px solid;
+    text-align: center;
+    transition: background-color 5s , transform 0.3s ease;
+    font-size: 40px;
+    /* transition: property duration; */
+    border-radius: 10px;
+    
+}
+
+h1:hover {
+    background-color: rgb(231, 17, 17);
+    cursor: pointer;
+    color: rgb(228, 221, 221);
+    transform: scale(0.9);
+}
+
+.container {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-left: 20px;
+}
+
+.ball {
+    margin-top: 100px;
+    width: 300px;
+    height: 200px;
+    background-color: coral;
+    border-radius: 10%; 
+    animation: jump 10s infinite ease-in-out;
+    position: relative;
+    
+}
+
+
+
+@keyframes jump {
+    0%, 100% {
+        transform: rotate(360deg);
+        left: 0;
+        
+    }
+
+    50% {
+        transform: rotate(90deg);
+        left: 400px;
+        
+    }
+}
